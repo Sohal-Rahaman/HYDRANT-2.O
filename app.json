@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "HYDRANT 2.O",
+    "slug": "hydrant-2o",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "/Users/sohalrahaman/HYDRA02/sohal8/assets/images/icon.png",
+    "scheme": "hydrant2o",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "/Users/sohalrahaman/HYDRA02/sohal8/assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001f3f"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#001f3f"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
